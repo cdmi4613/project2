@@ -145,6 +145,14 @@ else{
 }
 });
 
+let btnTop=document.querySelector(".kakao");
+
+btnTop.addEventListener("click", function(e){
+	e.preventDefault();
+
+	gsap.to(window, {scrollTo: 0, duration: 0.4});
+});
+
 
 
 });
